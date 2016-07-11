@@ -1,0 +1,59 @@
+@textColor: #666;
+
+.MAKE_BLOCK {
+    margin: auto;
+    display: block !important;
+}
+
+.signup-container {
+    width: 100%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+    .header-text {
+        font-size: 36px;
+        font-weight: 200;
+    }
+    .header-detail {
+        font-size: 18px;
+        font-weight: 100;
+        margin-top: 15px;
+    }
+    .signup-paper {
+        margin: auto;
+        margin-top: 30px;
+        max-width: 400px;
+        margin-bottom: 100px;
+        .signup-avatar {
+            .MAKE_BLOCK;
+            padding-top: 30px;
+            img {
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+            }
+        }
+        .signup-email {
+            .MAKE_BLOCK;
+        }
+        .signup-password {
+            .MAKE_BLOCK;
+        }
+        .signup-button {
+            margin-top: 25px;
+        }
+        .signup-error {
+            .MAKE_BLOCK;
+            font-size: 14px;
+            color: red;
+            height: 50px;
+            span {
+                position: relative;
+                top: 25%;
+            }
+        }
+    }
+    .padding {
+        height: 200px;
+    }
+}
